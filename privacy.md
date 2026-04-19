@@ -1,103 +1,78 @@
-# Privacy Policy — Nook Tab
+# Privacy — Nook Tab
 
-_Last updated: 2026-04-18_
+_Last updated: 19 April 2026_
 
-Nook Tab is built with privacy as a first-class concern. There is no account, no analytics, no tracking, and no data of yours is sent to a server operated by the extension's developer.
+I built Nook Tab because I wanted a quiet new tab for my own browser — not a dashboard that phones home about every click. So the privacy story is short:
 
-This policy explains exactly what data stays on your device, what data leaves your device (and to whom), and why.
+> **Nothing you do in Nook Tab is sent to me, tracked, or sold to anyone.**
+
+Here's exactly what happens, in plain English.
 
 ---
 
-## 1. Data stored locally on your device
+## What stays on your device
 
-The extension persists the following in `chrome.storage.local` — which is sandboxed to your browser profile and never uploaded anywhere by the extension:
+The extension keeps a handful of things in your browser's local storage — a file Chrome manages on your computer. It never leaves:
 
-- Your display name (if you choose to enter one)
-- Unit preference (°C / °F)
-- Clock format preference (24h / 12h)
-- Search-engine preference (Google / Bing / DuckDuckGo)
-- Pomodoro-timer durations and the current running-state snapshot
-- Sticky-note contents and positions
-- Last-played ambient-audio track and volume
-- The cached weather response and your cached coarse location
-- Which wallpaper is selected for the current day (an index into the bundled image set)
+- Your display name, if you set one
+- Your preferences: °C/°F, 12h/24h clock, default search engine, Pomodoro durations
+- The running state of the Pomodoro timer (so it stays in sync across your open tabs — still only on your device)
+- The text, colour, and position of your sticky notes
+- Your last-played ambient track and the volume you left it at
+- A cached weather response and your coarse location (both refreshed rarely)
+- Which wallpaper is today's (just an index into the bundled set)
 
-This data is only accessible to Nook Tab on your device. Uninstalling the extension removes it.
+Uninstall the extension and all of the above disappears with it.
 
-## 2. Data sent to third parties
+---
 
-Nook Tab makes four kinds of optional outbound network requests. You can disable each by not using the corresponding feature. Nothing is sent at install time.
+## What actually leaves your device
 
-### 2.1 IP-based geolocation (ipapi.co)
+Nook Tab stays silent until a feature needs the internet. There are four moments that do:
 
-**What is sent:** a standard HTTP GET request to `https://ipapi.co/json/`. The request carries your public IP address as the request origin (unavoidable for any HTTP call). No other data is attached.
+### 1. "Where am I, roughly?"
+Once a week at most, the extension pings [ipapi.co](https://ipapi.co/) based on your public IP so the weather pill can name your city — without Chrome poking you for the geolocation permission. Nothing else is sent in that request.
 
-**What is received:** your approximate city, country, latitude, and longitude.
+### 2. "What's the weather?"
+Up to once every 30 minutes, the coordinates from step 1 go to [Open-Meteo](https://open-meteo.com) for a current temperature and a weather code. Open-Meteo needs no account and sets no cookies.
 
-**Why:** to power the weather pill at the top-right without the friction of a browser geolocation permission prompt.
+### 3. Voice search — **only when you press the mic**
+Chrome's built-in Web Speech API streams microphone audio to Google for transcription and hands Nook Tab the text back. Nook Tab never touches the audio. Don't press the mic? No audio is ever captured. On browsers without Web Speech, the mic button simply doesn't appear.
 
-**Frequency:** at most once every 7 days (cached locally).
+### 4. Your actual search
+Hitting Enter loads a results page in the same tab — a normal browser navigation to Google, Bing, or DuckDuckGo, whichever you picked. Nothing detours through me.
 
-**Provider's policy:** <https://ipapi.co/privacy/>
+---
 
-### 2.2 Weather forecast (Open-Meteo)
+## Things Nook Tab deliberately doesn't do
 
-**What is sent:** a standard HTTP GET request to `https://api.open-meteo.com/v1/forecast` with your approximate latitude and longitude (from step 2.1) as query parameters.
+No analytics. No crash reporting. No "anonymous usage stats." No account. No cross-device sync. No ads, affiliate links, remarketing pixels, or fingerprinting. If someone ever offers to buy this extension and asks to change that, I'll say no.
 
-**What is received:** the current temperature and a weather-condition code.
+---
 
-**Why:** to display the weather on your new tab.
+## The permissions, explained
 
-**Frequency:** at most once every 30 minutes (cached locally).
+The `manifest.json` asks for two things and nothing else:
 
-**Provider's policy:** Open-Meteo does not require registration, does not set cookies, and states it does not track users. <https://open-meteo.com/en/terms>
+- `"storage"` — so your settings survive a browser restart
+- `"host_permissions"` for `api.open-meteo.com` and `ipapi.co` — the only two domains the extension is allowed to reach
 
-### 2.3 Voice search (Chrome Web Speech API)
+Microphone access isn't in the manifest. Chrome handles that on the fly the first time you press the mic.
 
-**What is sent:** when (and only when) you press the microphone button in the search bar, Chrome streams audio from your microphone to Google's speech-recognition service in order to transcribe it. This is Chrome's built-in implementation; Nook Tab does not capture, store, or transmit the audio itself — it only receives the resulting text transcript back from Chrome.
+---
 
-**What is received:** a text transcript that Nook Tab uses as your search query.
+## Kids
 
-**Why:** to let you search hands-free.
+Nook Tab doesn't ask for anyone's age. Since no personal data is collected in the first place, there's nothing special here — mentioning it only because some policy templates expect a line on under-13 users.
 
-**Frequency:** only while the microphone button is actively listening.
+---
 
-**Provider's policy:** Google's privacy policy governs any data Chrome sends to its speech service. <https://policies.google.com/privacy>
+## When this changes
 
-If you never press the microphone button, no audio is ever captured or transmitted. The microphone icon is hidden on browsers that do not support the Web Speech API.
+Any change to what data leaves your device will ship in the same commit that bumps the version at the top of this file. The freshest copy always lives at the URL in the Chrome Web Store listing.
 
-### 2.4 Search redirection
+---
 
-When you submit a search, the page you typed or a search-results page is loaded in the same tab. This is a normal page navigation — no data is sent to Nook Tab's developer. The query goes directly to Google, Bing, or DuckDuckGo (whichever you selected). Their respective privacy policies apply.
+## Questions or bugs
 
-## 3. Data Nook Tab does *not* do
-
-- No analytics, metrics, or telemetry — the extension makes no request that contains usage information.
-- No account, no sign-in, no sync across devices.
-- No tracking scripts, no third-party fonts, no beacons.
-- No ads, no affiliate links.
-- No sale or sharing of any data whatsoever.
-- No persistent cookies set by the extension.
-
-## 4. Permissions explained
-
-The extension requests these two kinds of permissions in `manifest.json`:
-
-- **`storage`** — required to save your preferences and state locally (see section 1).
-- **`host_permissions` for `api.open-meteo.com` and `ipapi.co`** — required to call the two weather-related APIs described above.
-
-No other permissions are requested. In particular, the extension does not request access to tabs, browsing history, bookmarks, cookies, clipboard, downloads, or any other site's content.
-
-Microphone access is governed by Chrome itself and is requested on demand by Chrome's Web Speech API — not by Nook Tab — only when you click the microphone button.
-
-## 5. Children's privacy
-
-Nook Tab does not knowingly collect data from children under 13. Since the extension does not collect personal data at all, this section is precautionary.
-
-## 6. Changes to this policy
-
-If a future version of the extension changes what is sent to third parties, this file will be updated in the same commit that makes the change, and the version number at the top of this file will be bumped.
-
-## 7. Contact
-
-Issues and questions: <https://github.com/iamarunbrahma/nook-tab/issues>
+Open an issue on the public repo for this site: <https://github.com/iamarunbrahma/nook-tab-site/issues>. I see everything that gets filed there.
