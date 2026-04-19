@@ -30,7 +30,7 @@ Nook Tab stays silent until a feature needs the internet. There are four moments
 
 ### 1. "Where am I, roughly?"
 
-Once a week at most, the extension pings [ipapi.co](https://ipapi.co/) based on your public IP so the weather pill can name your city, without Chrome poking you for the geolocation permission. Nothing else is sent in that request.
+Once a week at most, the extension pings [GeoJS](https://www.geojs.io/) based on your public IP so the weather pill can name your city and country, without Chrome poking you for the geolocation permission. Nothing else is sent in that request.
 
 ### 2. "What's the weather?"
 
@@ -57,7 +57,7 @@ No analytics. No crash reporting. No "anonymous usage stats." No account. No cro
 The `manifest.json` asks for two things and nothing else:
 
 - `"storage"`, so your settings survive a browser restart
-- `"host_permissions"` for `api.open-meteo.com` and `ipapi.co`, the only two domains the extension is allowed to reach
+- `"host_permissions"` for `api.open-meteo.com` and `get.geojs.io`, the only two domains the extension is allowed to reach
 
 Microphone access isn't in the manifest. Chrome handles that on the fly the first time you press the mic.
 
