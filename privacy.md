@@ -13,7 +13,7 @@ I built Nook Tab because I wanted a quiet new tab for my own browser, not a dash
 The extension keeps a handful of things in your browser's local storage (a file Chrome manages on your computer). It never leaves:
 
 - Your display name, if you set one
-- Your preferences: °C/°F, 12h/24h clock, default search engine, Pomodoro durations
+- Your preferences: °C/°F, 12h/24h clock, Pomodoro durations
 - The running state of the Pomodoro timer, so it stays in sync across your open tabs (still only on your device)
 - The text, colour, and position of your sticky notes
 - Your last-played ambient track and the volume you left it at
@@ -42,7 +42,7 @@ Chrome's built-in Web Speech API streams microphone audio to Google for transcri
 
 ### 4. Your actual search
 
-Hitting Enter loads a results page in the same tab, a normal browser navigation to Google, Bing, or DuckDuckGo (whichever you picked). Nothing detours through me.
+Hitting Enter with a search term hands the query to Chrome's Search API, which loads results using whatever search engine you've set as default in Chrome (Google, DuckDuckGo, or anything else you've chosen). Nook Tab doesn't pick a provider for you and nothing detours through me. If what you typed looks like a URL, the tab navigates there directly.
 
 ---
 
@@ -57,6 +57,7 @@ No analytics. No crash reporting. No "anonymous usage stats." No account. No cro
 The `manifest.json` asks for two things and nothing else:
 
 - `"storage"`, so your settings survive a browser restart
+- `"search"`, so the search bar hands your query to Chrome's own Search API and uses whatever default engine you already have configured
 - `"host_permissions"` for `api.open-meteo.com` and `get.geojs.io`, the only two domains the extension is allowed to reach
 
 Microphone access isn't in the manifest. Chrome handles that on the fly the first time you press the mic.
