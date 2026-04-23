@@ -1,6 +1,6 @@
 # Privacy: Nook Tab
 
-_Last updated: 19 April 2026_
+_Last updated: 23 April 2026_
 
 I built Nook Tab because I wanted a quiet new tab for my own browser, not a dashboard that phones home about every click. So the privacy story is short:
 
@@ -18,7 +18,7 @@ The extension keeps a handful of things in your browser's local storage (a file 
 - The text, colour, and position of your sticky notes
 - Your last-played ambient track and the volume you left it at
 - A cached weather response and your coarse location (both refreshed rarely)
-- Which wallpaper is today's (just an index into the bundled set)
+- Which wallpaper is today's (just an index into the catalog)
 
 Uninstall the extension and all of the above disappears with it.
 
@@ -26,7 +26,7 @@ Uninstall the extension and all of the above disappears with it.
 
 ## What actually leaves your device
 
-Nook Tab stays silent until a feature needs the internet. There are four moments that do.
+Nook Tab stays silent until a feature needs the internet. There are five moments that do.
 
 ### 1. "Where am I, roughly?"
 
@@ -43,6 +43,10 @@ Chrome's built-in Web Speech API streams microphone audio to Google for transcri
 ### 4. Your actual search
 
 Hitting Enter with a search term hands the query to Chrome's Search API, which loads results using whatever search engine you've set as default in Chrome (Google, DuckDuckGo, or anything else you've chosen). Nook Tab doesn't pick a provider for you and nothing detours through me. If what you typed looks like a URL, the tab navigates there directly.
+
+### 5. The wallpaper and the ambient tracks
+
+To keep the extension small, the wallpaper images and the four ambient audio loops are not bundled inside the extension. They live in a public GitHub repo I own and are served through [jsDelivr](https://www.jsdelivr.com), a free open-source CDN run on top of Cloudflare. The first time you see a particular wallpaper or play a particular track, your browser fetches that one file from `cdn.jsdelivr.net`. Your browser then caches it, so later visits load instantly and work offline. The request carries no cookies, no account, no identifier I add. jsDelivr's CDN sees a normal HTTP request for the file from your IP, the same as opening any image on the open web.
 
 ---
 
