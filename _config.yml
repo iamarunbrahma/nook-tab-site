@@ -1,3 +1,8 @@
 title: Nook Tab
 description: A quiet new tab for Chrome.
 theme: jekyll-theme-minimal
+
+# Binaries served via jsDelivr CDN (https://cdn.jsdelivr.net/gh/iamarunbrahma/nook-tab-site@vX.Y/assets/...).
+# Excluded from the Jekyll build to keep the GitHub Pages site lean.
+exclude:
+  - assets
