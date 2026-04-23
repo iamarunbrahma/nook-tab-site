@@ -1,0 +1,47 @@
+{
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "note": "Tracks were downloaded from Pixabay, clipped to at most 240 seconds, and re-encoded as Opus in a WebM container at 48 kbps. Each source was selected as the highest-ranked popular result on Pixabay whose native duration was at least 120 seconds (no looping applied).",
+  "tracks": [
+    {
+      "file": "assets/audio/forest-rain.webm",
+      "title": "Soft Rain with Crickets and Forest Stream",
+      "creator": "Eryliaa",
+      "creator_url": "https://pixabay.com/users/eryliaa-50095874/",
+      "source": "https://pixabay.com/sound-effects/nature-soft-rain-with-crickets-and-forest-stream-364357/",
+      "download_url": "https://cdn.pixabay.com/download/audio/2025/06/23/audio_5dc67dc00f.mp3?filename=eryliaa-soft-rain-with-crickets-and-forest-stream-364357.mp3",
+      "source_duration_seconds": 174.26,
+      "clipped_seconds": 174.27
+    },
+    {
+      "file": "assets/audio/ocean-waves.webm",
+      "title": "Soothing Ocean Waves",
+      "creator": "DRAGON-STUDIO",
+      "creator_url": "https://pixabay.com/users/dragon-studio-38165424/",
+      "source": "https://pixabay.com/sound-effects/nature-soothing-ocean-waves-372489/",
+      "download_url": "https://cdn.pixabay.com/download/audio/2025/07/09/audio_56227295c2.mp3?filename=dragon-studio-soothing-ocean-waves-372489.mp3",
+      "source_duration_seconds": 132.08,
+      "clipped_seconds": 132.08
+    },
+    {
+      "file": "assets/audio/forest-river.webm",
+      "title": "river in the forest",
+      "creator": "freesound_community",
+      "creator_url": "https://pixabay.com/users/freesound_community-46691455/",
+      "source": "https://pixabay.com/sound-effects/nature-river-in-the-forest-17271/",
+      "download_url": "https://cdn.pixabay.com/download/audio/2022/02/07/audio_e8d1024949.mp3?filename=freesound_community-river-in-the-forest-17271.mp3",
+      "source_duration_seconds": 200.54,
+      "clipped_seconds": 200.55
+    },
+    {
+      "file": "assets/audio/waterfall.webm",
+      "title": "waterfall",
+      "creator": "eisenkern1982",
+      "creator_url": "https://pixabay.com/users/eisenkern1982-13638097/",
+      "source": "https://pixabay.com/sound-effects/nature-waterfall-176958/",
+      "download_url": "https://cdn.pixabay.com/download/audio/2023/11/18/audio_0e0a8cd125.mp3?filename=eisenkern1982-waterfall-176958.mp3",
+      "source_duration_seconds": 136.41,
+      "clipped_seconds": 136.42
+    }
+  ]
+}
