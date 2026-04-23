@@ -1,0 +1,1017 @@
+{
+  "licenses": [
+    {
+      "site": "Pexels",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/"
+    },
+    {
+      "site": "Unsplash",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license"
+    }
+  ],
+  "note": "Wallpapers were audited for Chrome new-tab suitability. Any original image rated below 7/10 was replaced with a new free-license Unsplash source. Ratings reflect the final shipped image; replaced entries also keep the original pre-curation rating. Added a 20-image Pexels-only batch from direct raw CDN asset URLs using the subset of Pexels pages whose photographer names were already verifiable locally. Entries previously below 7.5/10 were then re-curated with fresh Unsplash replacements rated above 9.0/10.",
+  "wallpapers": [
+    {
+      "file": "assets/wallpapers/000.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/stunning-moroccan-sahara-desert-landscape-30710161/",
+      "author": "Stijn Dijkstra",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/001.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aerial-photo-of-foggy-mountains-1527pjeb6jg",
+      "author": "Sam Ferrara",
+      "rating": 9.0
+    },
+    {
+      "file": "assets/wallpapers/002.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/northern-lights-over-calm-lake-in-askainen-36925731/",
+      "author": "Markku Soini",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/003.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/landscape-photography-of-waves-and-clouds-q-DJ9XhKkhA",
+      "author": "Ant Rozetsky",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/004.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/green-grass-field-during-sunset-_RBcxo9AU-U",
+      "author": "Robert Lukeman",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/005.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/sun-rays-coming-through-green-trees-7Efs2bnffo0",
+      "author": "Stanislav Filipov",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/006.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/green-pine-trees-d6kSvT2xZQo",
+      "author": "Gustav Gullstrand",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/007.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/mountain-reflection-in-calm-lake-at-sunrise-fT1d2SXi1R8",
+      "author": "Emma Swoboda",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/008.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/serene-sand-dunes-in-merzouga-morocco-29107886/",
+      "author": "Ed Duvico",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/009.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/three-brown-wooden-boat-on-blue-lake-water-taken-at-daytime-T7K4aEPoGGk",
+      "author": "Pietro De Grandi",
+      "rating": 9.0
+    },
+    {
+      "file": "assets/wallpapers/010.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/stunning-aurora-borealis-display-at-night-36054420/",
+      "author": "Marcus L",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/011.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/colorful-sunset-over-the-ocean-with-ships-on-horizon-o75BFjcwmxc",
+      "author": "Logan Voss",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/012.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/stunning-northern-lights-in-iceland-s-night-sky-31291356/",
+      "author": "Pexels",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/013.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/body-of-water-surrounded-by-trees-NRQV-hBF10M",
+      "author": "Bailey Zindel",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/014.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-beautiful-sunset-over-a-lake-with-mountains-in-the-background-K4RCykj3SSg",
+      "author": "Patrik Bloudek",
+      "rating": 9.4
+    },
+    {
+      "file": "assets/wallpapers/015.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aerial-view-of-seashore-with-stones-J3ABLQjZQBg",
+      "author": "samsommer",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/016.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-lGYfGfLF6yo",
+      "author": "Fabrizio Conti",
+      "rating": 9.3
+    },
+    {
+      "file": "assets/wallpapers/017.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/forest-heat-by-sunbeam-RwHv7LgeC7s",
+      "author": "Johannes Plenio",
+      "rating": 9.0
+    },
+    {
+      "file": "assets/wallpapers/018.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aurora-borealis-glows-above-a-dark-horizon-xsM1krNOmCg",
+      "author": "Erwan Hesry",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/019.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/foggy-mountain-summit-1Z2niiBPg5A",
+      "author": "v2osk",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/020.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/mountains-reflect-beautifully-on-the-calm-waters-surface-YAhAtPA3R5s",
+      "author": "Colin Watts",
+      "rating": 9.7
+    },
+    {
+      "file": "assets/wallpapers/021.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/snowy-mountain-g30P1zcOzXo",
+      "author": "Daniel Leone",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/022.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/rocky-coastline-at-sunset-with-calm-ocean-waters-JetVH4Oyusg",
+      "author": "Simon Schwyter",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/023.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/body-of-water-and-snow-covered-mountains-during-daytime-YFFGkE3y4F8",
+      "author": "Tim Stief",
+      "rating": 9.0
+    },
+    {
+      "file": "assets/wallpapers/024.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/body-of-water-between-mountains-ZNkvxIPPVeE",
+      "author": "Sergei A",
+      "rating": 9.4
+    },
+    {
+      "file": "assets/wallpapers/025.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/landscape-photography-of-mountain-hit-by-sun-rays-78A265wPiO4",
+      "author": "Urban Vintage",
+      "rating": 9.0
+    },
+    {
+      "file": "assets/wallpapers/026.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/lush-forest-landscape-in-schomberg-germany-34243245/",
+      "author": "Joerg Hartmann",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/027.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/landscape-photography-of-mountains-twukN12EN7c",
+      "author": "simon",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/028.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/serene-forest-path-in-monchique-portugal-36627499/",
+      "author": "Nils Rotura",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/029.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/empty-concrete-road-covered-surrounded-by-tall-tress-with-sun-rays-3Kv48NS4WUU",
+      "author": "JOHN TOWNER",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/030.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/snowy-mountain-26381816/",
+      "author": "Eclipse Chasers",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/031.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/snow-covered-mountain-during-daytime-SJGiS1JzUCc",
+      "author": "Jerry Zhang",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/032.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-desert-with-a-mountain-in-the-background-WMwD0hvRj9w",
+      "author": "Zoshua Colah",
+      "rating": 9.1
+    },
+    {
+      "file": "assets/wallpapers/033.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/green-leafed-trees-2Y4dE8sdhlc",
+      "author": "Irina Iriser",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/034.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/epic-mountain-landscape-at-sunset-28993365/",
+      "author": "K S Aravinda Kashyap",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/035.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/lL_BZpq9MA8",
+      "author": "David Kovalenko",
+      "rating": 9.6
+    },
+    {
+      "file": "assets/wallpapers/036.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/serene-sunlit-mossy-forest-with-tall-trees-33288548/",
+      "author": "Septimiu Lupea",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/037.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/snow-mountain-under-stars-phIFdC6lA4E",
+      "author": "Benjamin Voros",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/038.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-mountain-range-with-a-lake-in-the-foreground-T_Qe4QlMIvQ",
+      "author": "Willian Justen de Vasconcellos",
+      "rating": 9.5
+    },
+    {
+      "file": "assets/wallpapers/039.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aerial-photography-of-mountain-range-covered-with-snow-under-white-and-blue-sky-at-daytime-9wg5jCEPBsw",
+      "author": "Rohit Tandon",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/040.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/trees-and-dessert-dune-18039347/",
+      "author": "Kallie Calitz",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/041.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/seashore-during-golden-hour-KMn4VEeEPR8",
+      "author": "Sean Oulashin",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/042.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/photo-of-mountains-under-cloudy-sky-3022417/",
+      "author": "Tomas Malik",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/043.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aerial-shot-of-forest-2Hzmz15wGik",
+      "author": "pine watt",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/044.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/mountains-and-lakes-are-shrouded-in-mist-8xXFONfEUtA",
+      "author": "Dario Jud",
+      "rating": 9.3
+    },
+    {
+      "file": "assets/wallpapers/045.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/photography-of-a-mountain-during-day-time-dR_q93lfaTw",
+      "author": "Jeremy Bishop",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/046.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/body-of-water-3215476/",
+      "author": "Pok Rie",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/047.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/landscape-photo-of-mountain-island-DXQB5D1njMY",
+      "author": "Michael",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/048.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/blue-mountain-and-mist-KQXeabDx7dI",
+      "author": "Alessio Soggetti",
+      "rating": 9.4
+    },
+    {
+      "file": "assets/wallpapers/049.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aurora-borealis-Ovn1hyBge38",
+      "author": "v2osk",
+      "rating": 9.7
+    },
+    {
+      "file": "assets/wallpapers/050.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/forest-240040/",
+      "author": "Pexels",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/051.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/brown-wooden-dock-between-lavender-flower-field-near-body-of-water-during-golden-hour-K2s_YE031CA",
+      "author": "Mark Harpur",
+      "rating": 8.5
+    },
+    {
+      "file": "assets/wallpapers/052.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/snow-capped-mountain-in-valle-d-aosta-31215259/",
+      "author": "Elisa Dondi",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/053.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/pine-trees-field-near-mountain-under-sunset--heLWtuAN3c",
+      "author": "Sergei A",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/054.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-beach-and-ocean-SolXjM7S8pI",
+      "author": "Jake Allison",
+      "rating": 9.5
+    },
+    {
+      "file": "assets/wallpapers/055.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aerial-photograph-of-islands-WKT3TE5AQu0",
+      "author": "NASA",
+      "rating": 9.4
+    },
+    {
+      "file": "assets/wallpapers/056.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/VRyDOWO8wTg",
+      "author": "Will Turner",
+      "rating": 9.3
+    },
+    {
+      "file": "assets/wallpapers/057.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/river-near-mountains-KiRlN3jjVNU",
+      "author": "Mark Koch",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/058.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-view-of-the-ocean-at-night-with-stars-in-the-sky-Y_CN2BiFZ9c",
+      "author": "Anthony Cantin",
+      "rating": 9.1
+    },
+    {
+      "file": "assets/wallpapers/059.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/green-hills-with-forest-under-cloudy-sky-during-daytime--SO3JtE3gZo",
+      "author": "Claudio Testa",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/060.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aurora-borealis-illuminates-the-starry-coastal-sky-llaxklpP_yc",
+      "author": "Evgeni Tcherkasski",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/061.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/green-mountain-across-body-of-water-Bkci_8qcdvQ",
+      "author": "Kalen Emsley",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/062.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/golden-dunes-of-the-sahara-desert-in-morocco-30710159/",
+      "author": "Stijn Dijkstra",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/063.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/mountain-peaks-and-a-calm-lake-at-sunrise-aaEwFuzBrDA",
+      "author": "Kristaps Ungurs",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/064.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/majestic-alps-mountain-landscape-in-summer-33891292/",
+      "author": "Leon Aschemann",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/065.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aerial-photo-of-green-trees-ugnrXk1129g",
+      "author": "Marita Kavelashvili",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/066.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/snowy-peaks-of-korutany-in-rakousko-under-clear-blue-sky-37072374/",
+      "author": "Alan Kabes",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/067.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/snow-capped-mountain-under-sky-roZgc7SXXmI",
+      "author": "Nathan Anderson",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/068.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/grey-and-green-mountain-1677344/",
+      "author": "Brian De Karma",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/069.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/forest-trees-jFCViYFYcus",
+      "author": "Lukasz Szmigiel",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/070.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/milky-way-arching-over-a-rocky-mountain-path-IPCh5x1whiQ",
+      "author": "Sebastian Knoll",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/071.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/aurora-phenomenon-LhDWW8PhPoE",
+      "author": "Cosmic Timetraveler",
+      "rating": 9.5
+    },
+    {
+      "file": "assets/wallpapers/072.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/mountain-range-with-a-serene-lake-at-sunrise-Za2_FgJ4Nws",
+      "author": "Steve Gribble",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/073.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-small-island-in-the-middle-of-the-ocean-wfomwxKDgtg",
+      "author": "Dylan Shaw",
+      "rating": 9.6
+    },
+    {
+      "file": "assets/wallpapers/074.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/dramatic-sunset-over-a-rocky-coastline-with-wet-sand-T5miyV835tI",
+      "author": "Tim Mossholder",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/075.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-rainbow-arches-over-a-majestic-mountain-landscape-vwFvhJf6u_I",
+      "author": "Pascal Debrunner",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/076.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-tall-ship-sails-on-the-ocean-at-sunset-NJCEGWjzA38",
+      "author": "Rafael Garcin",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/077.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/kEui6ae3PjU",
+      "author": "Nour Betar",
+      "rating": 9.7
+    },
+    {
+      "file": "assets/wallpapers/078.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/the-night-sky-with-stars-above-a-beach-HD_FvJUr1Gw",
+      "author": "Tobias Pfeifer",
+      "rating": 9.2
+    },
+    {
+      "file": "assets/wallpapers/079.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/calm-water-reflects-a-pastel-sunset-sky-with-clouds-9a77nIrsajw",
+      "author": "Freddie Addery",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/080.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/the-night-sky-over-the-ocean-with-stars-above-it-P3ojbX20pqY",
+      "author": "Dima Kletsel",
+      "rating": 9.3
+    },
+    {
+      "file": "assets/wallpapers/081.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/moon-rises-over-snow-capped-mountain-peaks-z7PAkCMyOFg",
+      "author": "Livia",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/082.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/jagged-mountain-peaks-illuminated-by-soft-sunset-light-NwZmYW5ETnE",
+      "author": "Marek Piwnicki",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/083.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/dramatic-rock-formations-on-a-beach-at-sunset-51x4LGAGp2Q",
+      "author": "Tim Mossholder",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/084.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/scenery-of-aurora-JpBrBQYftII",
+      "author": "Jonatan Pie",
+      "rating": 9.6
+    },
+    {
+      "file": "assets/wallpapers/085.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/starry-night-sky-over-a-calm-lake-reflecting-stars-Wfmjg9oySJY",
+      "author": "Evgeni Tcherkasski",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/086.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-large-glacier-with-mountains-in-the-background-7NstApFwBXU",
+      "author": "Venti Views",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/087.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-majestic-mountain-peak-behind-wildflowers-under-a-clear-sky-ho0_jE0q9T0",
+      "author": "PJH",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/088.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/mountain-range-at-dusk-with-clear-blue-sky-DlEPMQaBTlg",
+      "author": "Kevin Mueller",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/089.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/an-island-in-the-middle-of-the-ocean-1ugSc0Tb6JA",
+      "author": "NEOM",
+      "rating": 9.5
+    },
+    {
+      "file": "assets/wallpapers/090.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/rocky-desert-landscape-with-mountains-at-sunset-66X8xXqS9VU",
+      "author": "Jonathan Ikemura",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/091.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/soft-white-sand-dunes-under-a-pale-blue-sky-PhiT_BhJmvM",
+      "author": "Royce Fonseca",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/092.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/the-sun-is-setting-over-a-calm-lake-HY5WK2QFlCc",
+      "author": "Patrick Pahlke",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/093.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/sunlight-streams-through-trees-onto-a-field-of-purple-flowers-TVORvlpH2ZY",
+      "author": "Uran Wang",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/094.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/majestic-alpine-mountain-landscape-in-autumn-33891296/",
+      "author": "Pexels",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/095.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/colorado-rocky-mountains-with-snow-capped-peaks-34358629/",
+      "author": "Pexels",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/096.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/waterfalls-with-fog-landscape-during-daytime-HuUzq6Jn8Lw",
+      "author": "Matt Jones",
+      "rating": 9.1
+    },
+    {
+      "file": "assets/wallpapers/097.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/scenic-swiss-alps-mountain-landscape-30688450/",
+      "author": "Pexels",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/098.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/majestic-high-tatra-mountains-under-cloudy-sky-30829440/",
+      "author": "Pexels",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/099.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-forest-covered-in-fog-9JNKIN9XRuE",
+      "author": "Pascal Debrunner",
+      "rating": 9.5
+    },
+    {
+      "file": "assets/wallpapers/100.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/the-aurora-bore-is-seen-in-the-sky-over-trees-28357067/",
+      "author": "Pexels",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/101.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/expansive-sand-dunes-in-riyadh-saudi-arabia-32398256/",
+      "author": "Pexels",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/102.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/sand-dunes-in-the-desert-11377053/",
+      "author": "Pexels",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/103.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-forest-covered-in-fog-and-clouds-on-a-cloudy-day-ceboYO5x6xo",
+      "author": "Lute",
+      "rating": 9.1
+    },
+    {
+      "file": "assets/wallpapers/104.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/dramatic-mountain-scene-at-a-vibrant-sunrise-mhVlYssLoWE",
+      "author": "Pascal Debrunner",
+      "rating": 9.6
+    },
+    {
+      "file": "assets/wallpapers/105.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-mountain-lake-surrounded-by-trees-and-snow-CqTOTZh5vrs",
+      "author": "Simon Gamma",
+      "rating": 9.4
+    },
+    {
+      "file": "assets/wallpapers/106.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/snowy-landscape-with-rocks-and-distant-mountains-we4enFZr0aA",
+      "author": "Fudo Jahic",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/107.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/snow-covered-mountain-during-daytime-vqeWplq7W4Y",
+      "author": "Go Montgenevre",
+      "rating": 9.2
+    },
+    {
+      "file": "assets/wallpapers/108.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/DEnuB_zok9M",
+      "author": "fynn",
+      "rating": 9.6
+    },
+    {
+      "file": "assets/wallpapers/109.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-scenic-view-of-a-beach-and-a-body-of-water-r0KiJa-1YkA",
+      "author": "David Vives",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/110.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/majestic-view-of-albanian-alps-in-shkoder-county-33433115/",
+      "author": "Pexels",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/111.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-lake-with-a-mountain-in-the-background-U_mKUrPMXW0",
+      "author": "Peter Thomas",
+      "rating": 9.4
+    },
+    {
+      "file": "assets/wallpapers/112.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/mountains-are-silhouetted-against-a-vibrant-sunrise-6VhIHgqo5qI",
+      "author": "Daniil Silantev",
+      "rating": 9.5
+    },
+    {
+      "file": "assets/wallpapers/113.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/komovi-27878979/",
+      "author": "Pexels",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/114.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/photo-of-trees-and-mountains-11029904/",
+      "author": "Pexels",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/115.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/snow-covered-mountain-near-lake-during-daytime-d5pdKwxMjhE",
+      "author": "Johny Goerend",
+      "rating": 9.6
+    },
+    {
+      "file": "assets/wallpapers/116.avif",
+      "site": "Unsplash",
+      "source_url": "https://unsplash.com/photos/a-snow-covered-mountain-with-a-lake-in-front-of-it-6X8QuPSr2UE",
+      "author": "Nick Da Fonseca",
+      "rating": 9.5
+    },
+    {
+      "file": "assets/wallpapers/117.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/majestic-snow-capped-peaks-at-sunrise-30255568/",
+      "author": "Pexels",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/118.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/stunning-winter-view-of-the-swiss-alps-36302879/",
+      "author": "Pexels",
+      "rating": 8.0
+    },
+    {
+      "file": "assets/wallpapers/119.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/picturesque-view-of-himalayas-in-uttarakhand-36908074/",
+      "author": "Pexels",
+      "rating": 7.5
+    },
+    {
+      "file": "assets/wallpapers/120.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/waterfall-1080421/",
+      "author": "Felix Mittermeier",
+      "rating": 8.2,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/121.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/waterfalls-2904636/",
+      "author": "Ray Bilcliff",
+      "rating": 8.1,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/122.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/waterfalls-464391/",
+      "author": "Francesco Ungaro",
+      "rating": 8.6,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/123.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/photo-of-foggy-forest-1367192/",
+      "author": "eberhard grossgasteiger",
+      "rating": 8.4,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/124.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/forest-hd-wallpaper-plants-trees-86965/",
+      "author": "Justin Hamilton",
+      "rating": 8.1,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/125.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/photo-of-mountain-1303491/",
+      "author": "eberhard grossgasteiger",
+      "rating": 8.3,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/126.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/aerial-photography-of-mountains-889243/",
+      "author": "David Dubach",
+      "rating": 8.4,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/127.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/beach-foam-landscape-nature-533923/",
+      "author": "Pixabay",
+      "rating": 8.2,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/128.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/desert-459319/",
+      "author": "Pixabay",
+      "rating": 8.1,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/129.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/desert-937187/",
+      "author": "Simon Berger",
+      "rating": 8.2,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/130.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/desert-1731660/",
+      "author": "Boris Ulzibat",
+      "rating": 8.2,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/131.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/peyto-sunrise-28028982/",
+      "author": "Nunzio Guerrera",
+      "rating": 8.4,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/132.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/desert-field-998646/",
+      "author": "Francesco Ungaro",
+      "rating": 8.7,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/133.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/desert-2100387/",
+      "author": "Amine M'siouri",
+      "rating": 8.4,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/134.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/time-lapse-photography-of-river-2150347/",
+      "author": "Quang Nguyen Vinh",
+      "rating": 8.3,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/135.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/ocean-2575271/",
+      "author": "Haley Black",
+      "rating": 8.4,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/136.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/ocean-waves-1646311/",
+      "author": "Muffin Creatives",
+      "rating": 8.1,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/137.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/full-frame-shot-of-sea-water-235310/",
+      "author": "Lum3n",
+      "rating": 8.3,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/138.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/grand-canyon-673020/",
+      "author": "eberhard grossgasteiger",
+      "rating": 8.5,
+      "added_via_raw_cdn": true
+    },
+    {
+      "file": "assets/wallpapers/139.avif",
+      "site": "Pexels",
+      "source_url": "https://www.pexels.com/photo/top-view-of-an-island-18904624/",
+      "author": "Level Midia Imagens Aereas",
+      "rating": 8.5,
+      "added_via_raw_cdn": true
+    }
+  ]
+}
