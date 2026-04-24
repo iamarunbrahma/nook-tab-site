@@ -1,6 +1,6 @@
 # Privacy: Nook Tab
 
-_Last updated: 23 April 2026_
+_Last updated: 24 April 2026_
 
 I built Nook Tab because I wanted a quiet new tab for my own browser, not a dashboard that phones home about every click. So the privacy story is short:
 
@@ -46,7 +46,7 @@ Hitting Enter with a search term hands the query to Chrome's Search API, which l
 
 ### 5. The wallpaper and the ambient tracks
 
-To keep the extension small, the wallpaper images and the four ambient audio loops are not bundled inside the extension. They live in a public GitHub repo I own and are served through [jsDelivr](https://www.jsdelivr.com), a free open-source CDN run on top of Cloudflare. The first time you see a particular wallpaper or play a particular track, your browser fetches that one file from `cdn.jsdelivr.net`. Your browser then caches it, so later visits load instantly and work offline. The request carries no cookies, no account, no identifier I add. jsDelivr's CDN sees a normal HTTP request for the file from your IP, the same as opening any image on the open web.
+To keep the extension small, the wallpaper images and the ambient audio loops are not bundled inside the extension. They live in a public GitHub repo I own and are served through [jsDelivr](https://www.jsdelivr.com), a free open-source CDN run on top of Cloudflare. The first time you see a particular wallpaper or play a particular track, your browser fetches that one file from `cdn.jsdelivr.net`. Your browser then caches it, so later visits load instantly and work offline. The request carries no cookies, no account, no identifier I add. jsDelivr's CDN sees a normal HTTP request for the file from your IP, the same as opening any image on the open web.
 
 ---
 
@@ -62,7 +62,7 @@ The `manifest.json` asks for two things and nothing else:
 
 - `"storage"`, so your settings survive a browser restart
 - `"search"`, so the search bar hands your query to Chrome's own Search API and uses whatever default engine you already have configured
-- `"host_permissions"` for `api.open-meteo.com` and `get.geojs.io`, the only two domains the extension is allowed to reach
+- `"host_permissions"` for `api.open-meteo.com`, `get.geojs.io`, and `cdn.jsdelivr.net`, the only three domains the extension is allowed to reach
 
 Microphone access isn't in the manifest. Chrome handles that on the fly the first time you press the mic.
 
