@@ -4,7 +4,7 @@ title: Nook Tab
 
 # Nook Tab
 
-A quiet new tab for Chrome — daily wallpaper, weather, clock, Pomodoro, sticky notes, voice-enabled search, and ambient audio in a Liquid Glass UI.
+A quiet new tab. Daily wallpaper, weather, clock, Pomodoro, sticky notes, voice input, and ambient audio.
 
 - [Privacy policy](./privacy)
 

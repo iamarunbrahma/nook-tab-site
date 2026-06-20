@@ -1,6 +1,6 @@
 # Privacy: Nook Tab
 
-_Last updated: 24 April 2026_
+_Last updated: 21 June 2026_
 
 I built Nook Tab because I wanted a quiet new tab for my own browser, not a dashboard that phones home about every click. So the privacy story is short:
 
@@ -30,7 +30,7 @@ Nook Tab stays silent until a feature needs the internet. There are five moments
 
 ### 1. "Where am I, roughly?"
 
-Once a week at most, the extension pings [GeoJS](https://www.geojs.io/) based on your public IP so the weather pill can name your city and country, without Chrome poking you for the geolocation permission. Nothing else is sent in that request.
+Up to once every 30 minutes, and only when the weather refreshes, the extension pings [GeoJS](https://www.geojs.io/) based on your public IP so the weather pill can name your city and country, without Chrome poking you for the geolocation permission. The result is cached and reused across new-tab opens, so a burst of opens makes just one request. Nothing else is sent in that request.
 
 ### 2. "What's the weather?"
 
@@ -58,7 +58,7 @@ No analytics. No crash reporting. No "anonymous usage stats." No account. No cro
 
 ## The permissions, explained
 
-The `manifest.json` asks for two things and nothing else:
+The `manifest.json` asks for just these, and nothing else:
 
 - `"storage"`, so your settings survive a browser restart
 - `"search"`, so the search bar hands your query to Chrome's own Search API and uses whatever default engine you already have configured
